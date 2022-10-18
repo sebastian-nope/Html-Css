@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Esta pagina es Html Base">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Html Base</title>
+</head>
+<body>
+    <header>
+        <h1><strong>Header: </strong></h1>
+        <nav>Barra de navegación</nav>
+    </header>
+    <main>
+        <h2><strong>Main: </strong></h2>
+        <section>
+            <article>Articulo</article>
+            <p>Parrafo</p>
+        </section>
+        <span>Listas: </span>
+        <ul>
+            <li>Lista desordenada</li>
+        </ul>
+        <ol>
+            <li>Lista ordenada</li>
+        </ol>
+        <form action=""> <!--En action va la Url de la base de datos donde se guardara la info-->
+            <br>
+            <label for="texto">
+                <span>Formulario de Texto: </span>
+                <input type="text" id="texto" placeholder="Form Text" autocomplete="on" required />
+            </label>
+            <br>
+            <br>
+            <label for="correo">
+                <span>Formulario Correo: </span>
+                <input type="email" name="correo" id="correo" placeholder="correo@email.com" autocomplete="email" required/>
+            </label>
+            <br>
+            <br>
+            <label for="fecha">
+                <span>Fecha: </span>
+                <input type="date" id="fecha" required>
+            </label>
+            <br>
+            <br>
+            <label for="tiempo">
+                <span>Tiempo: </span>
+                <input type="time" id="tiempo" required>
+            </label>
+            <br>
+            <br>
+            <label for="fechaTiempo">
+                <span>Fecha-Tiempo: </span>
+                <input type="datetime-local" id="fechaTiempo" required>
+            </label>
+            <br>
+            <br>
+            <span>Select y Datalist: </span>
+            <select name="select" id="select">
+                <option value="Select1">Select1</option>
+                <option value="Select2">Select2</option>
+            </select>
+            <input list="lista" />
+            <datalist id="lista">
+                <option value="DataList1"></option>
+                <option value="DataList2"></option>
+            </datalist>
+            <br>
+            <br>
+            <span>Submit y Button</span>
+            <input type="submit" value="Submit">
+            <button>Button</button> <!--Para utilizarlo como uinput agregamos: type="submit"-->
+            <br>
+            <br>
+        </form>
+        <section>
+            <span>Imagen Local: </span>
+            <br>
+            <br>
+            <figure>
+                <img src="./Gato.png" alt="Gato Local">
+                <figcaption>Gato Local</figcaption>
+            </figure>
+            <br>
+            <br>
+            <span>Imagen Web: </span>
+            <br>
+            <br>
+            <figure>
+                <img src="https://gluc.mx/u/fotografias/m/2020/6/17/f608x342-28825_58548_15.jpg" alt="Gato Web">
+                <figcaption>Gato Web</figcaption>
+            </figure>
+            <br>
+            <br>
+            <span>Video: </span>
+            <br>
+            <br>
+            <video controls preload="auto">
+                <source src="./GatoDance.mp4#t=0,29" />
+            </video>
+        </section>
+    </main>
+    <footer>
+        <h2>Footer: </h2>
+        <a href="https://youtu.be/AsdeBainxn8">Link The Deep meme</a>
+    </footer>
+</body>
+</html>

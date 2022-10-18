@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #F6F6FE;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contenedor__card {
+	margin: 70px 0;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.card__thumbnail {
+	width: 650px;
+	height: 200px;
+	margin-right: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.card__img {
+	width: 100%;
+}
+
+.card__titulo {
+	font-family: Raleway, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.card__enlace {
+	color: black;
+}
+
+.card__extracto {
+	line-height: 28px;
+	color: grey;
+	margin-bottom: 20px;
+}
+
+.boton {
+	border: none;
+	min-width: 180px;
+	height: 50px;
+	padding: 0 30px;
+	background: black;
+	color: #ffffff;
+	display:inline-block;
+	border-radius: 100px;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #403cc2;
+	transition: .3s ease all;
+}
+
+.boton__texto {
+	font-weight: 600;
+}
+
+.boton:hover {
+	background: #28277a;
+	text-decoration: none;
+}
+
+.boton--card {
+	position: absolute;
+	right: 20px;
+	bottom: -20px;
+}
+
+.boton--compra {
+	background: rgb(116, 180, 20);
+}
+
+.boton--compra:hover {
+	background: rgb(79, 122, 15);
+	text-decoration: none;
+}
+
+.frase {
+	text-align: center;
+	margin: 70px 0;
+}
+
+.frase__texto {
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: Raleway, sans-serif ;
+	font-weight: 600;
+	font-style: italic;
+}
